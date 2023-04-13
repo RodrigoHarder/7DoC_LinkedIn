@@ -32,6 +32,12 @@ body{
     font-weight: 500;
 }
 
+.principal{
+    display: flex;
+    justify-content: center;
+    gap:32px;
+}
+
 .container{
     display: flex;
     align-items: center;

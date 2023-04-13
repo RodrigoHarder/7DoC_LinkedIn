@@ -24,6 +24,12 @@
     text-overflow: ellipsis;
     border: 1px solid var(--texto-secundario);
     border-radius: 8px;
+    cursor: pointer;
+}
+
+.subcard:hover{
+    background-color: var(--fundo-card-ativo);
+    border:2px solid var(--texto-secundario);
 }
 
 .titulo-subcard{

@@ -1,0 +1,66 @@
+.card-lateral-1, .card-lateral-2{
+    background-color: var(--fundo-card);
+    width: 320px;
+    height: 555px;
+    border-radius: 16px;
+    padding:16px;
+    margin-bottom: 14px;
+}
+
+.titulo-card-lateral{
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.perfil-lateral{
+    display: flex;
+    flex-direction: column;
+    gap:8px;
+}
+
+.perfil-lateral-informacoes{
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+
+.imagem-lateral{
+    width: 50px;
+    height: 50px;
+}
+
+.nome-sobrenome{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.informacao-perfil{
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.botao-lateral{
+    border: 1px solid var(--texto-principal);
+    border-radius: 16px;
+    height: 28px;
+    text-align: center;
+    text-decoration: none;
+    color: var(--texto-principal);
+    padding-top: 2px;
+    margin: 0 0 8px 60px;
+    margin-left:60px;
+}
+
+.botao-lateral:hover{
+    background-color: var(--fundo-card-ativo);
+    border:2px solid var(--texto-principal);
+}
+
+.botao-lateral-mensagem{
+    width: 154px;
+}
+
+.botao-lateral-conectar{
+    width: 100px; 
+}
