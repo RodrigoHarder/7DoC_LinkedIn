@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@font-face {
+    font-family: 'icones';
+    src: url(../font/icones.ttf);
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+:root{
+    --fundo-escuro: #000;
+    --fundo-card: #1d2226;
+    --fundo-card-ativo: hsla(0, 0%, 100%, 0.12);
+    --texto-principal: hsla(0, 0%, 100%, 0.9);
+    --texto-secundario: hsla(0, 0%, 100%, 0.6);
+    --texto-escuro: hsla(0, 0%, 0%, 0.75);
+    --input: #38434F;
+    --primario: #70b5f9;
+    --secundario: #5182b3;
+    --positivo: #3ec786;
+    --fonte-principal: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: var(--fundo-escuro);
+    color:var(--texto-principal);
+    font-family: var(--fonte-principal);
+    font-weight: 500;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+

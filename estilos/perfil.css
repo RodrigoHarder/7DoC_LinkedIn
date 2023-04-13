@@ -1,0 +1,125 @@
+.perfil{
+    background-color: var(--fundo-card);
+    width: 780px;
+    border-radius:16px;
+    line-height: 1.75;
+}
+
+.perfil-informacoes{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.foto-perfil{
+    border-radius: 50%;
+    border: 6px solid var(--fundo-card);
+    width: 160px;
+    position:absolute;
+    top:90px;
+    left:310px;
+    cursor:pointer;
+}
+
+.fundo-do-perfil{
+    width:780px;
+    border-radius: 16px 16px 0 0;
+    cursor:pointer;
+}
+
+.informacoes-pessoais{
+    margin: 50px 0 24px 0;
+}
+
+.perfil-nome, .perfil-formacao{
+    font-weight: 600;
+}
+
+.perfil-nome{
+    font-size: 24px;
+}
+
+.perfil-formacao{
+    font-size: 16px;
+}
+
+.perfil-local, .perfil-contato, .perfil-conexoes, .perfil-seguidores, .perfil-mais, .perfil-mensagem{
+    font-size:14px;
+    text-decoration: none;
+}
+
+.perfil-contato, .perfil-seguidores, .perfil-conexoes, .perfil-mais{
+    color:var(--primario);
+}
+
+.perfil-local{
+    font-weight: 400;
+    color:var(--texto-secundario);
+}
+
+.perfil-contato{
+    font-weight: 700;
+}
+
+.perfil-botoes{
+    margin-top: 6px;
+}
+
+.perfil-mensagem, .perfil-mais{
+    padding:6px 29px;
+    border-radius: 16px;
+}
+
+.perfil-mensagem{
+    background-color: var(--primario);
+    color:var(--fundo-card);
+    transition: 0.1s;
+}
+
+.perfil-mais{
+    border:1px solid var(--primario);
+    background-color: transparent;
+    transition:0.1s;
+}
+
+.elipse::before{
+    content: "\00B7";
+    color:var(--texto-secundario);
+    margin-right: 4px;
+}
+
+.perfil-conexoes:hover, .perfil-seguidores:hover, .perfil-contato:hover, .nome-empresa:hover, .nome-ensino:hover{
+    text-decoration:underline;
+    color:var(--primario);
+    cursor:pointer;
+}
+
+.perfil-mensagem:hover{
+    background-color:var(--secundario);
+}
+
+.perfil-mais:hover{
+ background-color: var(--fundo-card-ativo);
+ border:2px solid var(--primario);
+}
+
+.informacoes-gerais, .informacoes-profisisonais{
+    display: flex;
+    flex-direction: column;
+}
+
+.informacoes-profisisonais{
+    gap:10px;
+    margin-right: 100px;
+}
+
+.empresa, .ensino{
+    display:flex;
+    align-items: center;
+    gap:8px;
+}
+
+.empresa-logotipo, .ensino-logotipo{
+    width: 32px;
+    cursor:pointer;
+}
