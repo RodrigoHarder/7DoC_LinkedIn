@@ -1,0 +1,64 @@
+@import url("./style.css");
+
+.cabecalho{
+    background-color: var(--fundo-card);
+    padding:11px 0;
+    margin-bottom: 24px;
+}
+
+.cabecalho, .cabecalho-logo, .cabecalho-icones{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    gap:15px;
+}
+
+.pesquisa{
+    width: 280px;
+    height: 34px;
+    border:none;
+    border-radius: 4px;
+    background-color:var(--input);
+    padding-left: 48px;
+    color:var(--texto-principal);
+}
+
+.pesquisa::placeholder{
+    color:var(--texto-principal);
+}
+
+.icone-pesquisa{
+    position: absolute;
+    left:180px;
+}
+
+.icones{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:3px;
+    cursor:pointer;
+}
+
+
+
+.icone-texto{
+    font-size: 12px;
+}
+
+.icones-perfil{
+    border-right: 1px solid var(--texto-principal);
+    padding-right: 15px;
+}
+
+.icone-perfil{
+    width: 20px;
+    border-radius: 50%;
+}
+
+.icone-premium{
+    width: 100px;
+    text-align: center;
+    line-height: 1.5;
+    color:var(--primario);
+}
