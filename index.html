@@ -9,8 +9,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="./estilos/style.css">
-    <link rel="stylesheet" href="./estilos/perfil.css">
     <link rel="stylesheet" href="./estilos/cabecalho.css">
+    <link rel="stylesheet" href="./estilos/perfil.css">
+    <link rel="stylesheet" href="./estilos/destaque.css">
 </head>
 <body>
     <header class="cabecalho">
@@ -53,41 +54,84 @@
             </div>
         </nav>
     </header>
-    <main class="container">
-        <article class="perfil">
-            <img src="./imagens/fundo-do-perfil.jpg" alt="Imagem de fundo azul com um padrão quadriculado no lado esquerdo, a palavra alura no centro junto com a frase Mergulhe em tecnologia e no lado direito uma bússola" class="fundo-do-perfil">
-            <section class="perfil-informacoes">
-                <img src="./imagens/foto-perfil.jpg" alt="Fotografia de um garoto de pela clara, cabelos curtos na cor marrom e olhos castanhos sorrindo" class="foto-perfil">
-                <div class="informacoes-pessoais">
-                    <h1 class="perfil-nome">Rodrigo Harder</h1>
-                    <h2 class="perfil-formacao">Professor de Química | Design Gráfico | Monitor na Alura</h2>
-                    <div class="perfil-localidade">
-                        <span class="perfil-local">São Carlos, São Paulo, Brasil </span>
-                        <span class="elipse"><a href="#" class="perfil-contato">Informações de contato</a></span>
+    <main>
+        <section class="container">
+            <article class="perfil">
+                <img src="./imagens/fundo-do-perfil.jpg" alt="Imagem de fundo azul com um padrão quadriculado no lado esquerdo, a palavra alura no centro junto com a frase Mergulhe em tecnologia e no lado direito uma bússola" class="fundo-do-perfil">
+                <section class="perfil-informacoes">
+                    <img src="./imagens/foto-perfil.jpg" alt="Fotografia de um garoto de pela clara, cabelos curtos na cor marrom e olhos castanhos sorrindo" class="foto-perfil">
+                    <div class="informacoes-pessoais">
+                        <h1 class="perfil-nome">Rodrigo Harder</h1>
+                        <h2 class="perfil-formacao">Professor de Química | Design Gráfico | Monitor na Alura</h2>
+                        <div class="perfil-localidade">
+                            <span class="perfil-local">São Carlos, São Paulo, Brasil </span>
+                            <span class="elipse"><a href="#" class="perfil-contato">Informações de contato</a></span>
+                        </div>
+                        <div class="informacoes-gerais">
+                            <span class="perfil-social">
+                                <a href="#" class="perfil-seguidores">45 seguidores</a>
+                                <span class="elipse"><a href="#" class="perfil-conexoes">55 conexoes</a></span>
+                            </span>
+                            <span class="perfil-botoes">
+                                <a href="#" class="perfil-mensagem">Mensagem</a>
+                                <a href="#" class="perfil-mais">Mais</a>
+                            </span>
+                        </div>
                     </div>
-                    <div class="informacoes-gerais">
-                        <span class="perfil-social">
-                            <a href="#" class="perfil-seguidores">45 seguidores</a>
-                            <span class="elipse"><a href="#" class="perfil-conexoes">55 conexoes</a></span>
+                    <div class="informacoes-profisisonais">
+                        <span class="empresa">
+                            <img src="https://media.licdn.com/dms/image/C4D0BAQH9asE_b3_dgw/company-logo_100_100/0/1669690112973?e=1689206400&v=beta&t=x_jE8GLmpTA0JF-aStzgcyjURrViXGzIlFCFuVQgprg" alt="Logotipo da alura" class="empresa-logotipo">
+                            <p class="nome-empresa">Alura</p>
                         </span>
-                        <span class="perfil-botoes">
-                            <a href="#" class="perfil-mensagem">Mensagem</a>
-                            <a href="#" class="perfil-mais">Mais</a>
+                        <span class="ensino">
+                            <img src="https://media.licdn.com/dms/image/C4D0BAQGiXwxmIVKUjQ/company-logo_100_100/0/1649448015763?e=1689206400&v=beta&t=T8UtWy5BEInvSrYMt3KJ508rVLmqqpvaDp8E4zx1E-4" alt="Logotipo da UFSCar" class="ensino-logotipo">
+                            <p class="nome-ensino">UFSCar</p>
                         </span>
+                    </div>
+                </section>
+            </article>
+            <article class="destaque">
+                <h2 class="destaque-titulo">Destaque</h2>
+                <div class="destaque-subcards">
+                    <div class="subcard">
+                        <h6 class="titulo-subcard">Publicação</h6>
+                        <span class="subtitulo-subcard">Linguagens utilizada em Front-End</span>
+                        <img src="./imagens/codigo-1.jpg" alt="Imagem colorida de códigos" class="imagem-codigos">
+                        <div class="reacoes-comentarios">
+                            <div class="reacoes">
+                                <img src="./imagens/reacoes.png" alt="Tês bolinhas coloridas sobrepostas" class="imagem-reacoes">
+                                <span class="numero-reacoes">96</span>
+                            </div>
+                            <span class="numero-comentarios">15 comentários</span>
+                        </div>
+                    </div>
+                    <div class="subcard">
+                        <h6 class="titulo-subcard">Publicação</h6>
+                        <span class="subtitulo-subcard">Tailwind e outros frameworks CSS</span>
+                        <img src="./imagens/codigo-2.jpg" alt="Imagem colorida de códigos" class="imagem-codigos">
+                        <div class="reacoes-comentarios">
+                            <div class="reacoes">
+                                <img src="./imagens/reacoes.png" alt="Tês bolinhas coloridas sobrepostas" class="imagem-reacoes">
+                                <span class="numero-reacoes">124</span>
+                            </div>
+                            <span class="numero-comentarios">24 comentários</span>
+                        </div>
+                    </div>
+                    <div class="subcard">
+                        <h6 class="titulo-subcard">Publicação</h6>
+                        <span class="subtitulo-subcard">Um pouco sobre lógica de programação</span>
+                        <img src="./imagens/codigo-3.jpg" alt="Imagem colorida de códigos" class="imagem-codigos">
+                        <div class="reacoes-comentarios">
+                            <div class="reacoes">
+                                <img src="./imagens/reacoes.png" alt="Tês bolinhas coloridas sobrepostas" class="imagem-reacoes">
+                                <span class="numero-reacoes">137</span>
+                            </div>
+                            <span class="numero-comentarios">36 comentários</span>
+                        </div>
                     </div>
                 </div>
-                <div class="informacoes-profisisonais">
-                    <span class="empresa">
-                        <img src="https://media.licdn.com/dms/image/C4D0BAQH9asE_b3_dgw/company-logo_100_100/0/1669690112973?e=1689206400&v=beta&t=x_jE8GLmpTA0JF-aStzgcyjURrViXGzIlFCFuVQgprg" alt="Logotipo da alura" class="empresa-logotipo">
-                        <p class="nome-empresa">Alura</p>
-                    </span>
-                    <span class="ensino">
-                        <img src="https://media.licdn.com/dms/image/C4D0BAQGiXwxmIVKUjQ/company-logo_100_100/0/1649448015763?e=1689206400&v=beta&t=T8UtWy5BEInvSrYMt3KJ508rVLmqqpvaDp8E4zx1E-4" alt="Logotipo da UFSCar" class="ensino-logotipo">
-                        <p class="nome-ensino">UFSCar</p>
-                    </span>
-                </div>
-            </section>
-        </article>
+            </article>
+        </section>
     </main>
     <footer class="rodape">        
     </footer>

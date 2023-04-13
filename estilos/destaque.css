@@ -1,0 +1,64 @@
+@import url("./style.css");
+
+.destaque{
+    background-color: var(--fundo-card);
+    width: 780px;
+    padding: 8px 16px 22px 16px;
+    border-radius: 16px;
+}
+
+.destaque-titulo{
+    font-size: 20px;
+    font-weight: 600;
+    margin:8px 16px;
+}
+
+.destaque-subcards{
+    display:flex;
+    justify-content: space-around;
+}
+
+.subcard{
+    width: 236px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border: 1px solid var(--texto-secundario);
+    border-radius: 8px;
+}
+
+.titulo-subcard{
+    padding: 16px 0 2px 16px;
+}
+
+.titulo-subcard, .numero-comentarios, .numero-reacoes{
+    font-size: 12px;
+    color:var(--texto-secundario);
+    font-weight: 400;
+}
+
+.subtitulo-subcard{
+    font-size: 14px;
+    font-weight: 400;
+    white-space: nowrap;
+    text-align: center;
+    padding-left: 16px;
+    margin-right: 16px;
+}
+
+.imagem-codigos{
+    width:236px;
+    height: 132px;
+    margin-top: 8px;
+}
+
+.reacoes-comentarios{
+    display:flex;
+    justify-content: space-between;
+    padding: 4px 8px;
+}
+
+.reacoes{
+    display:flex;
+    align-items: center;
+    gap:10px;
+}
