@@ -1,6 +1,6 @@
 @import url("./experiencias.css");
 
-.experiencia{
+.posicionamento{
     display:flex;
     align-items: flex-start;
     gap:14px;
@@ -39,6 +39,12 @@
     color:var(--primario);
 }
 
+.informacao-formacao{
+    display:flex;
+    flex-direction: column;
+}
 
-
-
+.formacao{
+    font-size: 14px;
+    font-weight: 400;
+}

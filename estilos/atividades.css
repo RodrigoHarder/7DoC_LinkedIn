@@ -54,6 +54,7 @@
     font-size: 14px;
     font-weight: 500;
     color:var(--texto-secundario);
+    padding: 8px 0;
 }
 
 .todas-atividades:hover{
