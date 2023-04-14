@@ -1,0 +1,11 @@
+@import url("./style.css");
+
+.titulo-sobre{
+    padding-left: 16px;
+}
+
+.paragrafo{
+    padding:16px 32px;
+    font-size: 14px;
+    font-weight: 400;
+}
