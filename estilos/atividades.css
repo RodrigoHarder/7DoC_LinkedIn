@@ -1,13 +1,5 @@
 @import url("./style.css");
 
-.atividade{
-    margin-bottom: 14px;
-}
-
-.cartao-atividade{
-    padding:0 16px;
-}
-
 .subtitulo-seguidores{
     font-size: 14px;
     font-weight: 500;
@@ -16,7 +8,7 @@
 }
 
 .publicacao{
-    padding: 0 8px 0 16px;
+    margin:0 16px;
 }
 
 .publicacao-nome, .publicacao-data{
@@ -55,7 +47,6 @@
     display: flex;
     justify-content: center;
     border-top: 1px solid var(--texto-secundario);
-    padding: 8px 0;
 }
 
 .todas-atividades{

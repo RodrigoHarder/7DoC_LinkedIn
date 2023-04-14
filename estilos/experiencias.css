@@ -1,0 +1,44 @@
+@import url("./experiencias.css");
+
+.experiencia{
+    display:flex;
+    align-items: flex-start;
+    gap:14px;
+    margin:16px;
+}
+
+.linha-divisoria{
+    border-bottom: 1px solid var(--texto-secundario);
+}
+
+.imagem-experiencia{
+    width: 48px;
+    cursor: pointer;
+}
+
+.cargo{
+    font-size: 16px;
+    font-weight: 600;
+    cursor:pointer;
+}
+.local{
+    display: flex;
+    gap:6px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.periodo, .lugar{
+    font-size: 14px;
+    font-weight: 400;
+    color:var(--texto-secundario);
+}
+
+.cargo:hover{
+    text-decoration: underline;
+    color:var(--primario);
+}
+
+
+
+

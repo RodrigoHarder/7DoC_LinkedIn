@@ -45,3 +45,23 @@ body{
     gap:14px;
 }
 
+.cartao{
+    background-color: var(--fundo-card);
+    width: 780px;
+    border-radius:16px;
+    line-height: 1.75;
+    margin-bottom: 14px;
+}
+
+.cartao-espacamento{
+    padding: 8px 8px 20px 8px;
+}
+
+.titulo{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top:8px;
+    margin-left: 16px;
+}
+
+

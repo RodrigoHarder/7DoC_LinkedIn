@@ -1,10 +1,3 @@
-.cartao{
-    background-color: var(--fundo-card);
-    width: 780px;
-    border-radius:16px;
-    line-height: 1.75;
-}
-
 .perfil-informacoes{
     display:flex;
     justify-content: space-around;

@@ -1,19 +1,5 @@
 @import url("./style.css");
 
-.destaque{
-    background-color: var(--fundo-card);
-    width: 780px;
-    padding: 8px 16px 22px 16px;
-    border-radius: 16px;
-}
-
-.titulo{
-    font-size: 20px;
-    font-weight: 600;
-    margin-top:8px;
-    margin-left: 16px;
-}
-
 .destaque-subcards{
     display:flex;
     justify-content: space-around;
