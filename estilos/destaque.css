@@ -7,15 +7,17 @@
     border-radius: 16px;
 }
 
-.destaque-titulo{
+.titulo{
     font-size: 20px;
     font-weight: 600;
-    margin:8px 16px;
+    margin-top:8px;
+    margin-left: 16px;
 }
 
 .destaque-subcards{
     display:flex;
     justify-content: space-around;
+    margin-top: 16px;
 }
 
 .subcard{
