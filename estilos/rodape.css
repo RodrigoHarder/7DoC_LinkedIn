@@ -1,0 +1,62 @@
+@import url("./style.css");
+
+.rodape{
+    margin: 2rem 6rem;
+}
+
+.rodape-flex{
+    display:flex;
+    justify-content: space-around;
+}
+
+.rodape-posicionamento{
+    display:flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+.rodape-paragrafo{
+    list-style: none;
+}
+
+.link-rodape{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    color:var(--texto-secundario);
+}
+
+.link-rodape:hover, .rodape-titulo:hover{
+    text-decoration:underline;
+    color:var(--primario);
+    cursor:pointer;
+}
+
+.flex-posicionamento{
+    justify-content: start;
+    flex-direction: column;
+    row-gap: 1rem;;
+}
+
+.flex-interno{
+    display:flex;
+    gap:0.4rem;
+}
+
+.imagem-rodape{
+    width: 28px;
+    height: 28px;
+    cursor:pointer;
+}
+
+.rodape-titulo{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color:var(--texto-primario);
+}
+
+.copyright{
+    margin: 3em 0 1em 1em;
+}
+
