@@ -34,6 +34,10 @@
     color:var(--texto-secundario);
 }
 
+.espacamento-paragrafo{
+    margin-bottom:10px;
+}
+
 .cargo:hover{
     text-decoration: underline;
     color:var(--primario);
