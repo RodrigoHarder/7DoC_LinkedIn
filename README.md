@@ -24,9 +24,6 @@ O intuito dessa atividade é praticar os conhecimentos relacionados a formação
 
 O site foi dividido em partes e a cada dia tinhamos que realizar a estrutura e estilização de cada uma das partes desde o cabeçalho até o rodapé.
 
-## **Resultados da Imersão**
-O resultado final dos projetos pode ser acessado [neste link](https://rodrigoharder.github.io/7DoC-LinkedIn/).
-
 ![Tela simulada do site Linkedin, contendo um cabeçalho fixo na parte superior da tela, a área de perfil, sobre, atividades, experiência, formação e idiomas, além de cards laterais mostrando as conexões](imagens/resultado/linkedin.gif)
 
 ## **Como usar os arquivos?**
